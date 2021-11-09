@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .img-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 40px;
+      color: red;
+      position: relative;
+    }
+
+    p {
+      height: 100%;
+    }
+
+    .model {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      animation: donghua 2s infinite;
+    }
+
+    @keyframes donghua {
+      0% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 10%);
+      }
+
+      10% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 20%);
+      }
+
+      20% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 30%);
+      }
+
+      30% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 40%);
+      }
+
+      40% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 50%);
+      }
+
+      50% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 60%);
+      }
+
+      60% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 70%);
+      }
+
+      70% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 80%);
+      }
+
+      80% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 90%);
+      }
+
+      90% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, #ffffff 100%);
+      }
+
+      100% {
+        background: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img-wrapper">
+    <p>自然之友</p>
+    <div class="model"></div>
+  </div>
+</body>
+
+</html>

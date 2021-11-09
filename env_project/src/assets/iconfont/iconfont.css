@@ -1,0 +1,69 @@
+@font-face {
+  font-family: 'iconfont'; /* Project id 2618402 */
+  src: url('//at.alicdn.com/t/font_2618402_ek3v4tlqqor.woff2?t=1624067355198')
+      format('woff2'),
+    url('//at.alicdn.com/t/font_2618402_ek3v4tlqqor.woff?t=1624067355198')
+      format('woff'),
+    url('//at.alicdn.com/t/font_2618402_ek3v4tlqqor.ttf?t=1624067355198')
+      format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zhifubaozhifu:before {
+  content: '\e631';
+}
+
+.icon-zhifubaozhifu1:before {
+  content: '\e660';
+}
+
+.icon-wechat-pay-fill:before {
+  content: '\e61c';
+}
+
+.icon-zanshang:before {
+  content: '\e61b';
+}
+
+.icon-wechat_pay:before {
+  content: '\e601';
+}
+
+.icon-weixin:before {
+  content: '\e653';
+}
+
+.icon-github:before {
+  content: '\e606';
+}
+
+.icon-artboard19:before {
+  content: '\e772';
+}
+
+.icon-fabuzhe:before {
+  content: '\e65e';
+}
+
+.icon-fabushijian:before {
+  content: '\e65f';
+}
+
+.icon-huojian:before {
+  content: '\e62c';
+}
+
+.icon-xiaoyuan:before {
+  content: '\e600';
+}
+
+.icon-chengshi:before {
+  content: '\e648';
+}
