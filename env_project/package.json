@@ -13,7 +13,7 @@
     "echarts": "^5.1.1",
     "element-plus": "^1.0.2-beta.48",
     "marked": "^2.1.1",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "regenerator-runtime": "^0.13.7",
     "save": "^2.4.0",
     "vue": "^3.0.0",
